@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JuegoDeMemoria.jnlp">
+  <information>
+    <title>JuegoDeMemoria</title>
+    <vendor>luissarangoparrales</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JuegoDeMemoria.jar" size="9663116" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JuegoDeMemoria" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="juegodememoria.JuegoDeMemoria"  name="JuegoDeMemoria" />
+  <update check="always"/>
+</jnlp>
